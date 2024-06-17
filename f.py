@@ -5,4 +5,5 @@ def fact(x) :
        return (x * fact(x-1))
 
 num =3
+
 print( fact(num))
