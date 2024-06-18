@@ -1,9 +1,3 @@
-def fact(x) :
-    if x == 1 :
-       return  1
-    else:
-       return (x * fact(x-1))
-
-num =3
-
-print( fact(num))
+import os
+print(os.getcwd()) 
+print(os.listdir())
